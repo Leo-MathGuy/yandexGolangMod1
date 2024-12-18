@@ -19,8 +19,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 package main
 
 import (
-	"fmt"
-
 	"errors"
 	"strconv"
 	"strings"
@@ -40,7 +38,7 @@ type ErrorResponse struct {
 }
 
 type ResultResponse struct {
-	Error string `json:"result"`
+	Error float64 `json:"result"`
 }
 
 //// MARK: Server
@@ -64,7 +62,7 @@ func CalculateHandler(c *gin.Context) {
 		ErrorHandler(c, err, 422)
 		return
 	} else {
-		c.JSON(200, ResultResponse{fmt.Sprint(result)})
+		c.JSON(200, ResultResponse{result})
 	}
 }
 
