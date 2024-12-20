@@ -61,7 +61,7 @@ func ErrorHandler(c *gin.Context, err error, status int) {
 
 func CalculateHandler(c *gin.Context) {
 	var requestBody CalculateRequest
-	if err := binding.JSON.Bind(c.Request, requestBody); err != nil {
+	if err := binding.JSON.Bind(c.Request, &requestBody); err != nil {
 		ErrorHandler(c, err, 500)
 		return
 	}
