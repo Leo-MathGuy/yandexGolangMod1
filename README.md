@@ -1,7 +1,5 @@
 # Arithmetic evaluator with a RESTful web API
 
-# поставь 100 пж инструкции непонятные были а телега ввела в заблуждение...
-
 > Русский [README](README.ru.md)
 
 ## Evaluator (calculator)
@@ -19,4 +17,11 @@
 ### Running
 
 
--   `go run calcapi.go` after installing dependencies in go.mod
+-   `go run cmd/calcapi.go` after installing dependencies in go.mod (gin)
+
+### Testing
+
+-   `go test internal/application/calcapi_test.go`
+-   `go test pkg/calcapi/calculator_test.go`
+
+поставь 100 пж инструкции непонятные были а телега ввела в заблуждение...

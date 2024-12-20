@@ -16,6 +16,11 @@
 
 ### Запуск
 
--   `go run calcapi.go` после установки зависимостей в go.mod
+-   `go run cmd/main.go` после установки зависимостей в go.mod (gin)
+
+### Testing
+
+-   `go test internal/application/calcapi_test.go`
+-   `go test pkg/calcapi/calculator_test.go`
 
 Поставь 100 пж
