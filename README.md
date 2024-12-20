@@ -1,5 +1,7 @@
 # Arithmetic evaluator with a RESTful web API
 
+# поставь 100 пж инструкции непонятные были а телега ввела в заблуждение...
+
 > Русский [README](README.ru.md)
 
 ## Evaluator (calculator)
@@ -15,5 +17,6 @@
 -   No exponents or other functions
 
 ### Running
+
 
 -   `go run calcapi.go` after installing dependencies in go.mod
