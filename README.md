@@ -24,4 +24,4 @@
 -   `go test internal/application/calcapi_test.go`
 -   `go test pkg/calcapi/calculator_test.go`
 
-поставь 100 пж инструкции непонятные были а телега ввела в заблуждение...
+TG: @neo536
