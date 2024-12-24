@@ -23,4 +23,4 @@
 -   `go test internal/application/calcapi_test.go`
 -   `go test pkg/calcapi/calculator_test.go`
 
-Поставь 100 пж
+TG: @neo536
