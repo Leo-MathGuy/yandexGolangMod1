@@ -14,8 +14,7 @@
 
 -   No exponents or other functions
 
-### Running
-
+## Running
 
 -   `go run cmd/main.go` after installing dependencies in go.mod (gin)
 
@@ -23,5 +22,16 @@
 
 -   `go test internal/application/calcapi_test.go`
 -   `go test pkg/calcapi/calculator_test.go`
+
+### API
+
+- RESTful API with JSON
+
+#### "api/v1/calculate/"
+
+- In: {"expression": "..."}
+- Out: {"result": ...}
+- Error: 422 or 500 {"error": "..."}
+
 
 TG: @neo536
