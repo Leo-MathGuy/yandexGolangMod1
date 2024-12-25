@@ -27,7 +27,7 @@
 
 - RESTful API with JSON
 
-#### "api/v1/calculate/"
+#### "api/v1/calculate/" - POST
 
 - In: {"expression": "..."}
 - Out: {"result": ...}
