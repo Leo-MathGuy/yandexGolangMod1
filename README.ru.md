@@ -14,13 +14,24 @@
 
 - Никаких экспонентов или других функций.
 
-### Запуск
+## Запуск
 
 -   `go run cmd/main.go` после установки зависимостей в go.mod (gin)
 
-### Testing
+### Тесты
 
 -   `go test internal/application/calcapi_test.go`
 -   `go test pkg/calcapi/calculator_test.go`
+
+### API
+
+- RESTful API с JSON
+
+#### "api/v1/calculate/" - POST
+
+- Ввод: {"expression": "..."}
+- Вывод: {"result": ...}
+- Ошибка: 422 или 500 {"error": "..."}
+
 
 TG: @neo536
