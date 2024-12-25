@@ -17,7 +17,7 @@
 ### Running
 
 
--   `go run cmd/calcapi.go` after installing dependencies in go.mod (gin)
+-   `go run cmd/main.go` after installing dependencies in go.mod (gin)
 
 ### Testing
 
