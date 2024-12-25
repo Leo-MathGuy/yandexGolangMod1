@@ -1,6 +1,6 @@
 # Арифметический вычислитель с RESTFUL веб-API
 
-> English [README](README.ru)
+> English [README](README.md)
 
 ## Калькулятор
 
