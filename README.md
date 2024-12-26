@@ -32,6 +32,10 @@
 - In: {"expression": "..."}
 - Out: {"result": ...}
 - Error: 422 or 500 {"error": "..."}
+- Example curl:
 
+```bash
+curl -L -X POST 'http://localhost:80/api/v1/calculate'\
+-H 'Content-Type: application/json' -d '{"expression":"2+2"}'
 
 TG: @neo536
